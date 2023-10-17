@@ -52,7 +52,7 @@ function Camera() {
         
         <div className='flex justify-center py-[45px]'>
             
-        <Link to={'/camera2'} className='text-[#FFFFFF] text-center   font-poppins font-medium border w-[60px] h-[30px] border-[#70E000] rounded bg-[#70E000]'>
+        <Link to={'/camera2'} className='text-[#FFFFFF] text-center font-poppins font-medium border w-[60px] h-[30px] border-[#70E000] rounded bg-[#70E000]'>
           LInk
         </Link>
 

@@ -13,21 +13,21 @@ function Camera2() {
 
     <div className='mx-auto w-fit pt-10'>
         <div className='flex items-center gap-6'>
-          <h1 className='font-semibold text-lg'>
-            <span className='underline    md:decoration-[#70E000] '>
+            <h3 className='text-[#CCCCCC] text-[20px] font-poppings font-[400px] leading-[54px] pt-5'>
+              Set Up Camera
+            </h3>
+          <h1 className='font-[500px] text-[30px] font-inter leading-[53.09px]'>
+            <span className='border-b-[7px] border-[#70E000] mx-1'>
               Set
             </span>
-            Up Camera
+            Up Animal Type
           </h1>
-            <p className='text-[#CCCCCC]'>
-              Set Up animal type
-            </p>
         
         </div>
 
         <div className='text-[#CCCCCC] pt-10'>
           <select name="" id="" className='border-b w-[100%] border-b-[#70E000]'>
-            <option value=""> Amount of Camera</option>
+            <option value=""> Type of animal farm</option>
             <option value=""> 1</option>
             <option value=""> 2</option>
             <option value=""> 3</option>
@@ -40,20 +40,20 @@ function Camera2() {
             <option value=""> 10</option>
           </select> <br /> <br />
           <div>
-            <input className='border-b w-[100%] border-b-[#CCCCCC]' placeholder='Ip address(Camera1)' type="ip address" name="id=" /> <br /><br />
+            <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 1' type="ip address" name="id=" /> <br /><br />
           </div>
           <div>
-            <input className='border-b w-[100%] border-b-[#CCCCCC]' placeholder='Ip address(Camera2)' type="ip address" name="id=" /> <br /><br />
+            <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 2' type="ip address" name="id=" /> <br /><br />
           </div>
           <div>
-            <input className='border-b w-[100%] border-b-[#CCCCCC]' placeholder='Ip address(Camera3)' type="ip address" name="id=" /> <br /><br />
+            <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 3' type="ip address" name="id=" /> <br /><br />
           </div>
         </div>
         
         <div className='flex justify-center'>
             
-        <Link to={'/camera2'} className='text-[#FFFFFF] border w-fit border-[#70E000] bg-[#70E000]'>
-          LInk
+        <Link to={'/camera2'} className='text-[#FFFFFF] text-center font-poppins font-medium border w-[60px] h-[30px] border-[#70E000] rounded bg-[#70E000]'>
+          Done
         </Link>
 
         </div>
