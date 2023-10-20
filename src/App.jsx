@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Homepage from "./page/landing-pages/home"
+// import Homepage from "./page/landing-pages/home"
 import Onboarding from './components/shared-components/Onboarding-screen/onboarding';
 import WelcomeScreen from './components/shared-components/welcome screen/welcome';
 import Camera from './components/shared-components/welcome screen/camera';

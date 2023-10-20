@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import Navbar from '../navbar/navbar'
 import { Link } from 'react-router-dom';
@@ -28,7 +29,7 @@ function Camera() {
         <div className='text-[#CCCCCC] font-poppins text-[15px] leading-[20px] pt-10'>
           <select name="" id="" className='border-b-2 w-[100%] border-b-[#70E000]'>
             <option value=""> Amount of Camera</option>
-            <option value=""> 1</option>
+            <option value="" className='font-poppins text-[22px] leading-[33px] font-[400px] text-[#333333] w-'> 1</option>
             <option value=""> 2</option>
             <option value=""> 3</option>
             <option value=""> 4</option>

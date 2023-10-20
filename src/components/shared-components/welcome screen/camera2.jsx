@@ -1,6 +1,15 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
+// import React from 'react'
 import Navbar from '../navbar/navbar'
 import { Link } from 'react-router-dom'
+import CustomDropdown from '../../dropdownComponent/dropdown'
+
+
+
+
+
+
 
 function Camera2() {
   return (
@@ -25,20 +34,11 @@ function Camera2() {
         
         </div>
 
-        <div className='text-[#CCCCCC] pt-10'>
-          <select name="" id="" className='border-b w-[100%] border-b-[#70E000]'>
-            <option value=""> Type of animal farm</option>
-            <option value=""> 1</option>
-            <option value=""> 2</option>
-            <option value=""> 3</option>
-            <option value=""> 4</option>
-            <option value=""> 5</option>
-            <option value=""> 6</option>
-            <option value=""> 7</option>
-            <option value=""> 8</option>
-            <option value=""> 9</option>
-            <option value=""> 10</option>
-          </select> <br /> <br />
+           <div className='text-[#CCCCCC] pt-10'>
+           <div>
+           <CustomDropdown/>
+           </div> <br /> <b></b>
+          
           <div>
             <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 1' type="ip address" name="id=" /> <br /><br />
           </div>
@@ -50,7 +50,7 @@ function Camera2() {
           </div>
         </div>
         
-        <div className='flex justify-center'>
+        <div className='flex justify-center py-[45px]'>
             
         <Link to={'/camera2'} className='text-[#FFFFFF] text-center font-poppins font-medium border w-[60px] h-[30px] border-[#70E000] rounded bg-[#70E000]'>
           Done

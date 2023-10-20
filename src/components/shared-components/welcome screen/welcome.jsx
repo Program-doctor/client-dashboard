@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import Navbar from "../navbar/navbar";
 import { FaBell } from "react-icons/fa6";
@@ -23,7 +24,7 @@ function WelcomeScreen() {
         Welcome To Dalens AI
         </h1>
         <p>
-        To start setting up your farm,
+        To start set up your farm,
         
         <Link to={'/camera'} className='text-[#70E000]'>
          Click here
