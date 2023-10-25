@@ -7,7 +7,10 @@ import { Link } from 'react-router-dom';
 
 
 
+
+
 function Camera() {
+
   return (
     <div className='flex flex-col gap-12'>
       <Navbar
@@ -46,13 +49,13 @@ function Camera() {
              <option value=""> 10</option>
            </select> <br /> <br />
             <div>
-              <input required className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Ip address(Camera1)' type="ip address" name="id=" /> <br /><br />
+              <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Ip address(Camera1)' type="ip address" name="id=" /> <br /><br />
             </div>
             <div>
-              <input required className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Ip address(Camera2)' type="ip address" name="id=" /> <br /><br />
+              <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Ip address(Camera2)' type="ip address" name="id=" /> <br /><br />
             </div>
             <div>
-              <input required className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Ip address(Camera3)' type="ip address" name="id=" /> <br /><br />
+              <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Ip address(Camera3)' type="ip address" name="id=" /> <br /><br />
             </div>
           </div>
         

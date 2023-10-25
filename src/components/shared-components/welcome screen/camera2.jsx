@@ -47,13 +47,13 @@ function Camera2() {
               <CustomDropdown className />
             </div> <br /> 
             <div>
-              <input required className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 1' type="ip address" name="id=" /> <br /><br />
+              <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 1' type="ip address" name="id=" /> <br /><br />
             </div>
             <div>
-              <input required className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 2' type="ip address" name="id=" /> <br /><br />
+              <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 2' type="ip address" name="id=" /> <br /><br />
             </div>
             <div>
-              <input required className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 3' type="ip address" name="id=" /> <br /><br />
+              <input className='border-b-2 w-[100%] border-b-[#4D4D4D]' placeholder='Animal to monitor with camera 3' type="ip address" name="id=" /> <br /><br />
             </div>
           </div>
 
