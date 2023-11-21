@@ -4,10 +4,9 @@ import Header from "./Header";
 
 const Screen = () => {
   return (
-    <div className="Screen">
+    <div className="flex">
       <CompressedNav/>
-      <div className="Header-body">
-
+      <div className="min-w-[calc(100vw - 100px)] px-[1.2rem] py-[.7rem] flex min-h-screen flex-col">
       <Header/>
       <DataScreen/>
       </div>
