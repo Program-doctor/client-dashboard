@@ -26,7 +26,7 @@ const data=[
     return(
        <div >
         <h2 className="text-2xl font-sans ml-32">Pricing</h2>
-        <div  className="rounded-xl">
+        <div>
             {
                 data.map((id,type,price,update,plan)=>{
                     return(
