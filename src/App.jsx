@@ -1,14 +1,16 @@
-import React from 'react'
 import './App.css'
+// import History from './History';
+import Pricing from './Pricing'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      
-    </>
-  )
+    <div>
+      <Pricing />
+      {/* <History/> */}
+    </div>
+  );
 }
 
 export default App
